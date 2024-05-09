@@ -1,0 +1,107 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Trebuchet MS' ,'Lucida Sans Unicode' , 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
+box-sizing: border-box;
+}
+html.body{
+width: 100%;
+height: 100%;
+}
+#main{
+ width:100%;
+ min-height: 100%;
+}
+.top{
+ width:100%;
+ min-height: 60vh;
+ background-image: url(https://t3.ftcdn.net/jpg/02/41/43/18/360_F_241431868_8DFQpCcmpEPVG0UvopdztOAd4a6Rqsoo.jpg);
+ background-size: cover;
+ background-position: center;
+}
+.top .overlay{
+    position:relative;
+    width:100%;
+ min-height: inherit;
+ background-color: rgba(248, 246, 246, 0.256);
+
+
+}
+.text{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:absolute;
+    width:100%;
+    padding:0 10vh;
+    color:rgb(13, 13, 13);
+    bottom:5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+
+}
+.text .image{
+    background-color: url(https://static.tnn.in/thumb/msid-94150893,thumbsize-24448,width-1280,height-720,resizemode-75/94150893.jpg);
+    background-size:cover;
+    background-position:center;
+    height:300px;
+    width:200px;
+}
+.rtext{
+    display: flex;
+    width:50;
+    align-items: center;
+}
+.rtext{
+    font-size:18px;
+width:50%;
+min-height: 40vh;
+}
+.bottom{
+    display:flex;
+    width:100%;
+    min-height:40vh;
+}
+
+.b1{
+    width:50%;
+    min-height: inherit;
+    background-image: url(https://media.burford.co.uk/images/SNY04089.jpg_edit.width-1440_05001m7uKQ0crRoI.jpg);
+background-size: cover;
+background-position: center;
+}
+.b1 h2{
+    text-align: center;
+    padding: 30px;
+}
+.b2{
+    width:40%;
+    min-height: inherit;
+   
+   background-image: url(https://media.istockphoto.com/id/1211554164/photo/3d-render-of-home-appliances-collection-set.jpg?s=612x612&w=0&k=20&c=blm3IyPyZo5ElWLOjI-hFMG-NrKQ0G76JpWGyNttF8s=);
+   background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.b3{
+    width:40%;
+    min-height: inherit;
+    background-image: url();
+} 
+.b3 .overlay{
+    width:100%;
+    min-height: inherit;
+   
+   background-image: url(https://static.tnn.in/thumb/msid-94150893,thumbsize-24448,width-1280,height-720,resizemode-75/94150893.jpg);
+   background-size: cover;
+    background-position: center;
+
+}
+
+
+
